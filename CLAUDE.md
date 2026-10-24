@@ -21,6 +21,7 @@ A running `pnpm dev` holds handles on `public/`; deleting a folder there leaves 
 - `src/data.ts` — language-independent data: name, email, LinkedIn, contacts, skill groups, image paths, `faceFocus`.
 - `src/components/` — one file per section (Navbar, Hero, About, Experience, Skills, Projects, Education, Footer); `ui/` holds shared pieces.
 - `public/images/` — Disney/3D character renders (white-background JPGs). `public/certificates/` — certificate PDFs.
+- `public/favicon.png` — round, transparent-cornered crop of the navbar avatar (same `faceFocus.avatar` crop), rendered once with headless Edge; regenerate it if the avatar changes.
 - Content source of truth is her CV (EN + TR PDFs, kept outside the repo in `D:\berfin`).
 
 ## Rules (decided with the owner — do not change without asking)
