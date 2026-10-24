@@ -1,7 +1,7 @@
 import type { Content } from './types';
 
 export const tr: Content = {
-  meta: { title: 'Berfin Yılmaz — Fullstack Developer', switchTo: 'English' },
+  meta: { title: 'Berfin Yılmaz — Software Engineer', switchTo: 'English' },
   nav: [
     { href: '#about', label: 'Hakkımda', hint: 'ben kimim' },
     { href: '#experience', label: 'Deneyim', hint: 'nerede çalıştım' },
@@ -12,7 +12,7 @@ export const tr: Content = {
   hero: {
     available: 'Yeni fırsatlara açığım',
     greeting: 'Merhaba, ben',
-    role: 'Fullstack Developer',
+    role: 'Software Engineer',
     tagline:
       'React.js, Vue.js/Nuxt.js, .NET Core ve Azure ile SaaS platformları, gerçek zamanlı sistemler ve CBS (GIS) uygulamaları geliştiriyorum.',
     location: 'İstanbul, Türkiye',
@@ -28,7 +28,7 @@ export const tr: Content = {
     eyebrow: 'Hakkımda',
     title: 'Koddan',
     highlight: 'Canlı Ürünlere',
-    text: "React.js, Vue.js/Nuxt.js, .NET Core ve Azure teknolojileriyle SaaS platformları, gerçek zamanlı sistemler ve CBS (GIS) uygulamaları geliştiren 2+ yıl deneyimli bir Fullstack Developer'ım. Türkiye'de birden fazla işletmenin aktif olarak kullandığı bir restoran SaaS ürününün kurucu ortağı; Flutter ve .NET ile geliştirilen bir belediye proje takip uygulamasının geliştirme sorumlusuyum. Frontend, API geliştirme ve ilişkisel veritabanları alanlarında yüksek performanslı, kullanıcı odaklı ürünler geliştiriyorum.",
+    text: "React.js, Vue.js/Nuxt.js, .NET Core ve Azure teknolojileriyle SaaS platformları, gerçek zamanlı sistemler ve CBS (GIS) uygulamaları geliştiren 2+ yıl deneyimli bir Software Engineer'ım. Türkiye'de birden fazla işletmenin aktif olarak kullandığı bir restoran SaaS ürününün kurucu ortağı; Flutter ve .NET ile geliştirilen bir belediye proje takip uygulamasının geliştirme sorumlusuyum. Frontend, API geliştirme ve ilişkisel veritabanları alanlarında yüksek performanslı, kullanıcı odaklı ürünler geliştiriyorum.",
     facts: [
       { label: 'Konum', value: 'İstanbul, Türkiye' },
       { label: 'Eğitim', value: 'Bilgisayar Mühendisliği, Lisans' },

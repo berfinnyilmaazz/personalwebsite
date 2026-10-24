@@ -1,6 +1,6 @@
 # CLAUDE.md — Berfin Yılmaz Personal Website
 
-Single-page, bilingual (EN / TR) CV website for Berfin Yılmaz (Fullstack Developer).
+Single-page, bilingual (EN / TR) CV website for Berfin Yılmaz. Self-description is **Software Engineer** (not "Fullstack Developer"). Past job titles in Experience stay as they were held.
 This file overrides the parent `D:\berfin\CLAUDE.md`, which belongs to an unrelated case-study project.
 
 ## Stack & commands
@@ -22,17 +22,17 @@ A running `pnpm dev` holds handles on `public/`; deleting a folder there leaves 
 - `src/components/` — one file per section (Navbar, Hero, About, Experience, Skills, Projects, Education, Footer); `ui/` holds shared pieces.
 - `public/images/` — Disney/3D character renders (white-background JPGs). `public/certificates/` — certificate PDFs.
 - `public/favicon.png` — round, transparent-cornered crop of the navbar avatar (same `faceFocus.avatar` crop), rendered once with headless Edge; regenerate it if the avatar changes.
-- Content source of truth is her CV (EN + TR PDFs, kept outside the repo in `D:\berfin`).
+- Content source of truth is the owner's CV (EN + TR PDFs, kept outside the repo in `D:\berfin`).
 
 ## Rules (decided with the owner — do not change without asking)
 
-- **Privacy:** never publish her phone number. No CV PDF in `public/` (it contains the phone). LinkedIn replaces "Download CV".
+- **Privacy:** never publish the owner's phone number. No CV PDF in `public/` (it contains the phone). LinkedIn replaces "Download CV".
 - **Email:** never a bare `mailto:` link — use `ui/EmailMenu` (Gmail / mail app / copy), because `mailto:` does nothing without a default mail client.
 - **URL stays bare:** in-page links go through `useCleanUrl` (scroll without writing `#hash`; `?lang=` is applied, then stripped).
 - **Layout style:** dark wine/cream theme with "ordered chaos" — overlapping panels and offset blocks are fine, but **cards themselves sit straight**; they may tilt/lift slightly only on hover.
 - **Images:** `Photo` with `blend` multiplies white backgrounds into a paper panel; `face` zooms a full-body render to the face using a transform-origin from `faceFocus`. Those origins were measured by rendering crops — re-measure rather than guess if an image changes.
 - All certificate links are labelled "Verify" / "Doğrula", whether they point to an online verification page (`url`) or a PDF (`file`).
-- No made-up content (e.g. skill percentages): everything shown must be backed by the CV or documents she provided.
+- No made-up content (e.g. skill percentages): everything shown must be backed by the CV or documents the owner provided.
 
 ## Code conventions
 

@@ -1,7 +1,7 @@
 import type { Content } from './types';
 
 export const en: Content = {
-  meta: { title: 'Berfin Yılmaz — Fullstack Developer', switchTo: 'Türkçe' },
+  meta: { title: 'Berfin Yılmaz — Software Engineer', switchTo: 'Türkçe' },
   nav: [
     { href: '#about', label: 'About', hint: 'who I am' },
     { href: '#experience', label: 'Experience', hint: 'where I work' },
@@ -12,7 +12,7 @@ export const en: Content = {
   hero: {
     available: 'Open to new opportunities',
     greeting: "Hi, I'm",
-    role: 'Fullstack Developer',
+    role: 'Software Engineer',
     tagline:
       'I build SaaS platforms, real-time systems and GIS applications with React.js, Vue.js/Nuxt.js, .NET Core and Azure.',
     location: 'Istanbul, Türkiye',
@@ -28,7 +28,7 @@ export const en: Content = {
     eyebrow: 'About me',
     title: 'From Code To',
     highlight: 'Live Products',
-    text: 'Fullstack Developer with 2+ years of hands-on experience building SaaS platforms, real-time systems and GIS applications. Co-founder of a live restaurant SaaS product used by multiple businesses in Turkey and contributor to a municipal project-tracking application built with Flutter and .NET. I deliver high-performance, user-centric products across frontend, API development and relational databases.',
+    text: 'Software Engineer with 2+ years of hands-on experience building SaaS platforms, real-time systems and GIS applications. Co-founder of a live restaurant SaaS product used by multiple businesses in Turkey and contributor to a municipal project-tracking application built with Flutter and .NET. I deliver high-performance, user-centric products across frontend, API development and relational databases.',
     facts: [
       { label: 'Based in', value: 'Istanbul, Türkiye' },
       { label: 'Degree', value: 'B.Sc. Computer Engineering' },
