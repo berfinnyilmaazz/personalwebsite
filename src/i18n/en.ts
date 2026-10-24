@@ -35,7 +35,7 @@ export const en: Content = {
       { label: 'Languages', value: 'Turkish (Native) · English (B2)' },
       { label: 'Currently', value: 'Co-Founder @ Foomoons' },
     ],
-    findMe: 'Find me around',
+    findMe: 'Get in touch',
     findMeSub: "Let's build something together",
     letsTalk: "Let's Talk",
     seeWork: 'See my work',
